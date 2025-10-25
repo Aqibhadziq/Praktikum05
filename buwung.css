@@ -182,12 +182,10 @@ ul li a:hover {
   color: limegreen;
 }
 
-@media (max-width: 768px) {
-  .gambar img, .koleksi img {
+.gambar img, .koleksi img {
     width: 90%;
   }
 
   .isi, #profil, #beternak {
     padding: 15px;
   }
-}
