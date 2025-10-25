@@ -1,0 +1,193 @@
+body {
+  background-color: pink;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: darkred;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: orange;
+  text-align: center;
+  padding: 20px 15px;
+  border-bottom: 3px solid purple;
+}
+
+#header h1 {
+  color: lime;
+  font-size: 28px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+#header blockquote {
+  background-color: yellow;
+  border-left: 5px solid red;
+  display: inline-block;
+  padding: 10px 20px;
+  font-style: italic;
+  color: blueviolet;
+  font-size: 15px;
+  border-radius: 6px;
+}
+
+#header #soekarno {
+  font-weight: bold;
+  color: darkorange;
+}
+
+ul {
+  background-color: lightcoral;
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: darkblue;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+ul li a:hover {
+  color: black;
+  background-color: lime;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.gambar {
+  text-align: center;
+  background-color: violet;
+  padding: 15px 0;
+}
+
+.gambar img {
+  border: 3px solid gold;
+  border-radius: 15px;
+  margin: 10px;
+  width: 300px;
+}
+
+.isi {
+  padding: 20px 50px;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.isi .jawa {
+  color: magenta;
+  font-weight: bold;
+}
+
+.isi p::first-letter {
+  font-size: 200%;
+  font-weight: bold;
+  color: crimson;
+}
+
+#profil, #beternak {
+  background-color: lightcyan;
+  padding: 20px 50px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px darkgreen;
+}
+
+#profil h3, #beternak h3 {
+  color: deeppink;
+  border-bottom: 2px solid chartreuse;
+  padding-bottom: 5px;
+}
+
+#profil ul, #beternak ol {
+  padding-left: 30px;
+}
+
+#profil li, #beternak li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.koleksi {
+  text-align: center;
+  background-color: plum;
+  padding: 20px;
+}
+
+.koleksi img {
+  width: 220px;
+  margin: 10px;
+  border-radius: 15px;
+  border: 2px solid tomato;
+  transition: transform 0.3s ease;
+}
+
+.koleksi img:hover {
+  transform: scale(1.05);
+}
+
+.promo {
+  background-color: turquoise;
+  padding: 20px;
+  margin: 30px 40px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 10px orangered;
+}
+
+.promo h2 {
+  color: darkviolet;
+}
+
+.promo h3 {
+  color: firebrick;
+  line-height: 1.6;
+}
+
+.promo del {
+  color: darkslategray;
+}
+
+#Wa {
+  color: indigo;
+  font-weight: bold;
+}
+
+.promo ol {
+  list-style: none;
+  padding: 0;
+}
+
+.promo ol li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.promo ol li a {
+  text-decoration: none;
+  color: maroon;
+  font-weight: bold;
+}
+
+.promo ol li a:hover {
+  color: limegreen;
+}
+
+@media (max-width: 768px) {
+  .gambar img, .koleksi img {
+    width: 90%;
+  }
+
+  .isi, #profil, #beternak {
+    padding: 15px;
+  }
+}
